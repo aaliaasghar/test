@@ -1,0 +1,71 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+.goal{
+    color: #d03852;
+}
+ .imigs > :nth-child(1){
+background-image: url(images/en-flag.png);
+background-repeat: no-repeat;
+width: 30px;
+height: 30px;
+padding: 20px;
+}
+.imigs{
+    display: flex;
+}
+.imigs > :nth-child(2){
+    background-image: url(images/ur-flag.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+.imigs > :nth-child(3){
+        background-image: url(images/zh-flag.png);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        padding: 20px;
+}
+.bg-dark {
+    justify-content: flex-start;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    margin: 16px;
+}
+.card{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px;
+
+}
+#left{
+    width:200px;
+    padding: 10px;
+}
+.card-side{
+    float: right;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 0em;
+    border-color: beige;
+ 
+}
+#right{
+    width: 300px;
+}
+/*.dropdown-menu{
+  margin: 0 auto;
+  float:right;
+  max-width: 200px;
+}*/
+/* Write all your CSS here! */
